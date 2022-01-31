@@ -1,0 +1,9 @@
+manually at every level
+
+React.createContext  		const MyContext = React.createContext(defaultValue);
+
+React.Provider   		<MyContext.Provider value={/* some value */}>
+
+Context.Consumer    	<MyContext.Consumer>
+  			{value => /* render something based on the context value */}
+			</MyContext.Consumer>
